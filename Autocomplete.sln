@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autocomplete.Amazon", "Autocomplete.Amazon\Autocomplete.Amazon.csproj", "{0027D98C-140E-45B2-ABCF-1B25179AB2ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autocomplete.Console", "Autocomplete.Console\Autocomplete.Console.csproj", "{2680C1EA-EE75-40A0-A926-C71C67F54005}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{D0AA0736-AE56-4F88-A880-B7CC14632D6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autocomplete.Common", "Autocomplete.Common\Autocomplete.Common.csproj", "{EECE9796-E871-4A42-8981-DD0696CCB02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rm.Extensions", "utilities\ignore\csharp-extensions\rm.Extensions\rm.Extensions.csproj", "{CDD966D6-4370-4745-9B0E-F8D7E252620E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rm.Trie", "utilities\ignore\csharp-trie\rm.Trie\rm.Trie.csproj", "{9610867E-7D5E-420A-9D9A-436201400A99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rm.Logging", "utilities\ignore\Logging\rm.Logging\rm.Logging.csproj", "{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0027D98C-140E-45B2-ABCF-1B25179AB2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0027D98C-140E-45B2-ABCF-1B25179AB2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0027D98C-140E-45B2-ABCF-1B25179AB2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0027D98C-140E-45B2-ABCF-1B25179AB2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2680C1EA-EE75-40A0-A926-C71C67F54005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2680C1EA-EE75-40A0-A926-C71C67F54005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2680C1EA-EE75-40A0-A926-C71C67F54005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2680C1EA-EE75-40A0-A926-C71C67F54005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EECE9796-E871-4A42-8981-DD0696CCB02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECE9796-E871-4A42-8981-DD0696CCB02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECE9796-E871-4A42-8981-DD0696CCB02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECE9796-E871-4A42-8981-DD0696CCB02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD966D6-4370-4745-9B0E-F8D7E252620E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD966D6-4370-4745-9B0E-F8D7E252620E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD966D6-4370-4745-9B0E-F8D7E252620E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD966D6-4370-4745-9B0E-F8D7E252620E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9610867E-7D5E-420A-9D9A-436201400A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9610867E-7D5E-420A-9D9A-436201400A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9610867E-7D5E-420A-9D9A-436201400A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9610867E-7D5E-420A-9D9A-436201400A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDD966D6-4370-4745-9B0E-F8D7E252620E} = {D0AA0736-AE56-4F88-A880-B7CC14632D6B}
+		{9610867E-7D5E-420A-9D9A-436201400A99} = {D0AA0736-AE56-4F88-A880-B7CC14632D6B}
+		{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B} = {D0AA0736-AE56-4F88-A880-B7CC14632D6B}
+	EndGlobalSection
+EndGlobal
