@@ -39,6 +39,9 @@
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="rm.Extensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\rm.Extensions.1.0.0-alpha\lib\net461\rm.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -60,10 +63,6 @@
     <ProjectReference Include="..\Autocomplete.Common\Autocomplete.Common.csproj">
       <Project>{eece9796-e871-4a42-8981-dd0696ccb02a}</Project>
       <Name>Autocomplete.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\utilities\ignore\csharp-extensions\rm.Extensions\rm.Extensions.csproj">
-      <Project>{cdd966d6-4370-4745-9b0e-f8d7e252620e}</Project>
-      <Name>rm.Extensions</Name>
     </ProjectReference>
     <ProjectReference Include="..\utilities\ignore\csharp-trie\rm.Trie\rm.Trie.csproj">
       <Project>{9610867e-7d5e-420a-9d9a-436201400a99}</Project>

@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="rm.Extensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\rm.Extensions.1.0.0-alpha\lib\net461\rm.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,14 +52,13 @@
     <Compile Include="UrlContentFetcher.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\utilities\ignore\csharp-extensions\rm.Extensions\rm.Extensions.csproj">
-      <Project>{cdd966d6-4370-4745-9b0e-f8d7e252620e}</Project>
-      <Name>rm.Extensions</Name>
-    </ProjectReference>
     <ProjectReference Include="..\utilities\ignore\Logging\rm.Logging\rm.Logging.csproj">
       <Project>{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B}</Project>
       <Name>rm.Logging</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
