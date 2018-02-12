@@ -50,7 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Crawler.cs" />
-    <Compile Include="CrawlerFactory.cs" />
     <Compile Include="ResultsJsonParser.cs" />
     <Compile Include="SeedSearch.cs" />
     <Compile Include="SearchUrlBuilder.cs" />

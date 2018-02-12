@@ -1,5 +1,4 @@
 ﻿using System;
-using Autocomplete.Amazon;
 using rm.Logging;
 
 namespace Autocomplete.Console
@@ -12,7 +11,7 @@ namespace Autocomplete.Console
 		{
 			try
 			{
-				CrawlerFactory.Get().Start();
+				CrawlerFactory.Get(Crawler.Amazon).Start();
 			}
 			catch (Exception ex)
 			{
