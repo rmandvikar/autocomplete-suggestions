@@ -42,6 +42,9 @@
     <Reference Include="rm.Extensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\rm.Extensions.1.0.0-alpha\lib\net461\rm.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="rm.Trie, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\rm.Trie.1.0.0-alpha\lib\net461\rm.Trie.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -63,10 +66,6 @@
     <ProjectReference Include="..\Autocomplete.Common\Autocomplete.Common.csproj">
       <Project>{eece9796-e871-4a42-8981-dd0696ccb02a}</Project>
       <Name>Autocomplete.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\utilities\ignore\csharp-trie\rm.Trie\rm.Trie.csproj">
-      <Project>{9610867e-7d5e-420a-9d9a-436201400a99}</Project>
-      <Name>rm.Trie</Name>
     </ProjectReference>
     <ProjectReference Include="..\utilities\ignore\Logging\rm.Logging\rm.Logging.csproj">
       <Project>{f19e6662-9380-4b3c-b9a3-43ae44afca7b}</Project>

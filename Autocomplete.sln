@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autocomplete.Common", "Autocomplete.Common\Autocomplete.Common.csproj", "{EECE9796-E871-4A42-8981-DD0696CCB02A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rm.Trie", "utilities\ignore\csharp-trie\rm.Trie\rm.Trie.csproj", "{9610867E-7D5E-420A-9D9A-436201400A99}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rm.Logging", "utilities\ignore\Logging\rm.Logging\rm.Logging.csproj", "{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B}"
 EndProject
 Global
@@ -33,10 +31,6 @@ Global
 		{EECE9796-E871-4A42-8981-DD0696CCB02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EECE9796-E871-4A42-8981-DD0696CCB02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EECE9796-E871-4A42-8981-DD0696CCB02A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9610867E-7D5E-420A-9D9A-436201400A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9610867E-7D5E-420A-9D9A-436201400A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9610867E-7D5E-420A-9D9A-436201400A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9610867E-7D5E-420A-9D9A-436201400A99}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -46,7 +40,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9610867E-7D5E-420A-9D9A-436201400A99} = {D0AA0736-AE56-4F88-A880-B7CC14632D6B}
 		{F19E6662-9380-4B3C-B9A3-43AE44AFCA7B} = {D0AA0736-AE56-4F88-A880-B7CC14632D6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
